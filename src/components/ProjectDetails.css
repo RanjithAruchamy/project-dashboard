@@ -1,0 +1,53 @@
+/* ProjectDetails.css */
+.project-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-name {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .available-count {
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 10px;
+  }
+  
+  .vacancies-section,
+  .resources-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tile-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+    

@@ -1,0 +1,45 @@
+/* App.css */
+body {
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  background-color: #f4f4f4; /* Background color for the whole page */
+}
+
+.project-tiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-tile {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #f0f0f0;
+  background-color: #2e6baf; /* Background color for each project tile */
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+  background-color: #0a2325; /* Background color on hover */
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff; /* Project name color */
+}
+
+.available-count {
+  margin-top: 10px;
+  color: #28a745; /* Available count color */
+  font-weight: bold;
+  font-size: 16px;
+}
